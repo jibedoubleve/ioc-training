@@ -17,9 +17,9 @@ namespace Ioc.Pattern
     {
         #region Methods
 
-        public void SayBye() => Console.WriteLine("Bonjour.");
+        public void SayHello() => Console.WriteLine("Bonjour.");
 
-        public void SayHello() => Console.WriteLine("Au revoir");
+        public void SayBye() => Console.WriteLine("Au revoir");
 
         #endregion Methods
     }
@@ -28,9 +28,9 @@ namespace Ioc.Pattern
     {
         #region Methods
 
-        public void SayBye() => Console.WriteLine("Hola");
+        public void SayHello() => Console.WriteLine("Hola");
 
-        public void SayHello() => Console.WriteLine("Adios");
+        public void SayBye() => Console.WriteLine("Adios");
 
         #endregion Methods
     }
